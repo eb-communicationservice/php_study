@@ -1,0 +1,4 @@
+<?php
+	require_once'Zend/Version/Version.php';
+	echo Zend\Version\Version::VERSION;
+?>

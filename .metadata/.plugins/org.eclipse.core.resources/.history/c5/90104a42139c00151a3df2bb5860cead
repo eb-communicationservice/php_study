@@ -1,0 +1,22 @@
+<head>
+	<title>kadai01</title>
+	<link rel="stylesheet" type="text/css" href="../../../css/common.css">
+</head>
+<body>
+	<div id="viewName">
+		<h2>新規登録</h2>
+	</div>
+	<form action="registController.php" method="post">
+		<label for="memberId">■社員番号：</label>
+		<input id="memberId" type="text" name="memberId" size="5" maxlength="6" value="" /><br />
+		<label for="name">■氏　　名：</label>
+		<input id="name" type="text" name="name" size="10" maxlength="20" value="" /><br />
+		<label for="age">■年　　齢：</label>
+		<input id="age" type="text" name="age" size="4" maxlength="3" value="" /><br />
+		■性　　別:
+		<input id="sex" type="radio" name="sex" value="0" /><label for="sex">男性</label>
+		<input id="sex" type="radio" name="sex" value="1" /><label for="sex">女性</label><br />
+		<label for="phoneNum">■電話番号：</label>
+		<input id="phoneNum" type="text" name="phoneNum" size="15" maxlength="20" value="" />
+	</form>
+</body>

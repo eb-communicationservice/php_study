@@ -1,0 +1,39 @@
+<head>
+	<title>kadai01</title>
+	<link rel="stylesheet" type="text/css" href="../../../css/common.css">
+</head>
+<body>
+	<div id="viewName">
+		<h2>編集</h2>
+	</div>
+	<form action="editMemberController.php" method="post">
+		<table id="memberInfo">
+			<tr>
+				<th><label for="memberId">社員番号</label></th>
+				<td><input id="memberId" type="text" name="memberId" size="5" maxlength="6" value="" /></td>
+			</tr>
+			<tr>
+				<th><label for="name">氏　　　名</label></th>
+				<td><input id="name" type="text" name="name" size="10" maxlength="20" value="" /></td>
+			</tr>
+			<tr>
+				<th><label for="age">年　　　齢</label></th>
+				<td><input id="age" type="text" name="age" size="3" maxlength="4" value="" /></td>
+			</tr>
+			<tr>
+				<th>性　　　別</th>
+				<td>
+					<input id="male" type="radio" name="sex" value="0" /><label for="male">男性</label>
+					<input id="female" type="radio" name="sex" value="1" /><label for="female">女性</label>
+				</td>
+			</tr>
+			<tr>
+				<th><label for="phoneNum">電話番号</label></th>
+				<td><input id="phoneNum" type="text" name="phoneNum" size="15" maxlength="20" value="" /></td>
+			</tr>
+		</table>
+		<input type="submit" value="登録" />
+	</form>
+
+	<a href="detailMember.php">戻る</a>
+</body>

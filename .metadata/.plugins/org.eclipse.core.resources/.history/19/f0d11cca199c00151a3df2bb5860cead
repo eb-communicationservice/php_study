@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+div#viewName{
+	background-color: #a52a2a;
+	color: #ffffff;
+	padding: 0 5px;
+	margin: 3 0px;
+}
+table#memberInfo{
+	margin: 10 0px;
+	border-collapse: collapse;
+}
+table#memberInfo th{
+	padding: 2 5px;
+	background-color: #ffb6c1;
+	border-spacing: 0px;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+table#memberInfo td{
+	padding: 2 5px;
+	background-color: #ffffff;
+	border-spacing: 0px;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+
+}

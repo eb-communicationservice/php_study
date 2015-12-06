@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+div#viewName{
+	background-color: #0000cd;
+	color: #ffffff;
+	padding: 0 5px;
+	margin: 3 0px;
+}
+table#memberInfo th{
+	background-color: #87cefa;
+	border: 1px;
+}
+table#memberInfo td{
+	background-color: #ffffff;
+	border: 3;
+}
