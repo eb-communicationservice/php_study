@@ -1,6 +1,0 @@
-@CHARSET "UTF-8";
-div#viewName{
-	background-color: #0000cd;
-	color: #ffffff;
-	padding: 0px 2px;
-}
