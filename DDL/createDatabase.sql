@@ -1,1 +1,1 @@
-create database php_study CHARACTER SET utf8 COLLATE utf8_general_ci;
+create database php_study character set utf8 collate utf8_general_ci;
